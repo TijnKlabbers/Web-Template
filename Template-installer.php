@@ -7,6 +7,47 @@ function import_elementor_template() {
             'title' => 'Header Template',
             'file' => 'elementor-8527-2024-04-23.json',
             'type' => 'header',
+        ],
+        [
+            'title' => 'hero section',
+            'file' => 'elementor-22-2024-04-23.json',
+            'type' => 'section',
+        ],
+        // New entry for the Partner Slider
+        [
+            'title' => 'partner slider',
+            'file' => 'elementor-143-2024-04-23.json',
+            'type' => 'slider',  // Specify the type if it's different from other templates
+        ],
+        // Add the footer template
+        [
+            'title' => 'footer template',
+            'file' => 'elementor-133-2024-04-23.json',
+            'type' => 'footer',
+        ],
+        // Add the Image left text right template
+        [
+            'title' => 'image left text right template',
+            'file' => 'elementor-215-2024-04-23.json',
+            'type' => 'section',
+        ],
+        // Add the text left image right template
+        [
+            'title' => 'text left text image Template',
+            'file' => 'elementor-222-2024-04-23.json',
+            'type' => 'section',
+        ],
+        // Add the text middle template
+        [
+            'title' => 'text middle template',
+            'file' => 'elementor-227-2024-04-23.json',
+            'type' => 'section',
+        ],
+        // Add the faq template
+        [
+            'title' => 'faq template',
+            'file' => 'elementor-233-2024-04-23.json',
+            'type' => 'section',
         ]
     ];
 
@@ -65,10 +106,4 @@ function import_elementor_template() {
 }
 
 add_action('init', 'import_elementor_template');
-
-
-
-
-
-
 ?>
