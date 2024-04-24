@@ -55,7 +55,7 @@ class AdminMessages {
             foreach ($inactive_plugins as $plugin_name) {
                 echo '<p>' . $plugin_name . '</p>';
             }
-            echo '<p><button onclick="document.location.href=\''. admin_url('admin-post.php?action=install_all_plugins') .'\'">Install and Activate All Required Plugins</button></p></div>';
+            echo '<p><button onclick="document.location.href=\''. admin_url('admin-post.php?action=install_all_plugins') .'\'">Install & Activate Plugins</button></p></div>';
         }
     }
 
